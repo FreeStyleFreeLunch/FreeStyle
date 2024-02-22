@@ -132,48 +132,48 @@ This section should list any major frameworks/libraries used to bootstrap your p
     pip install transformers
     pip install accelerate
    ```
-###Download model and weight files
+### Download model and weight files
    download the [SDXL](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/tree/main) and put it into: **./diffusers_test/stable-diffusion-xl-base-1.0**
     
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ###  Demo    
 
-####Oil painting Style
+#### Oil painting Style
 ```sh
   cd ./diffusers_test
   python stable_diffusion_xl_test.py --refimgpath ./ContentImages/imgs0 --model_name "./stable-diffusion-xl-base-1.0" --unet_name ./stable-diffusion-xl-base-1.0/unet/ --prompt_json ./style_prompt0.json --num_images_per_prompt 4 --output_dir ./output0 --sampler "DDIM" --step 30 --cfg 5 --height 1024 --width 1024 --seed 123456789 --n 160 --b 1.8 --s 1
 ```
 
-####Origami Art Style
+#### Origami Art Style
 
 ```sh
   cd ./diffusers_test
   python stable_diffusion_xl_test.py --refimgpath ./ContentImages/imgs1 --model_name "./stable-diffusion-xl-base-1.0" --unet_name ./stable-diffusion-xl-base-1.0/unet/ --prompt_json ./style_prompt1.json --num_images_per_prompt 4 --output_dir ./output1 --sampler "DDIM" --step 30 --cfg 5 --height 1024 --width 1024 --seed 123456789 --n 160 --b 2.5 --s 1
 ```
 
-####Gogh Starry Sky Style
+#### Gogh Starry Sky Style
 
 ```sh
   cd ./diffusers_test
   python stable_diffusion_xl_test.py --refimgpath ./ContentImages/imgs2 --model_name "./stable-diffusion-xl-base-1.0" --unet_name ./stable-diffusion-xl-base-1.0/unet/ --prompt_json ./style_prompt2.json --num_images_per_prompt 4 --output_dir ./output2 --sampler "DDIM" --step 30 --cfg 5 --height 1024 --width 1024 --seed 123456789 --n 160 --b 2.5 --s 1
 ```
 
-####Studio Ghibli Style
+#### Studio Ghibli Style
 
 ```sh
   cd ./diffusers_test
   python stable_diffusion_xl_test.py --refimgpath ./ContentImages/imgs3 --model_name "./stable-diffusion-xl-base-1.0" --unet_name ./stable-diffusion-xl-base-1.0/unet/ --prompt_json ./style_prompt3.json --num_images_per_prompt 4 --output_dir ./output3 --sampler "DDIM" --step 30 --cfg 5 --height 1024 --width 1024 --seed 123456789 --n 160 --b 2.8 --s 1
 ```
 
-####Cyberpunk Style
+#### Cyberpunk Style
 
 ```sh
   cd ./diffusers_test
   python stable_diffusion_xl_test.py --refimgpath ./ContentImages/imgs4 --model_name "./stable-diffusion-xl-base-1.0" --unet_name ./stable-diffusion-xl-base-1.0/unet/ --prompt_json ./style_prompt4.json --num_images_per_prompt 4 --output_dir ./output4 --sampler "DDIM" --step 30 --cfg 5 --height 1024 --width 1024 --seed 123456789 --n 160 --b 2.8 --s 1
 ```
 
-####Children Crayon Drawing Style
+#### Children Crayon Drawing Style
 
 ```sh
   cd ./diffusers_test
