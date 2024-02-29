@@ -213,6 +213,10 @@ When the expression of content information is unclear, please increase b (decrea
 
 Adjust the parameter n appropriately when there is noise in the stylized image.
 
+
+#### Tip
+For most images, adjusting hyperparameters can usually yield satisfactory results. If the generated outcome is suboptimal, it is advisable to try several different hyperparameters.
+
   
 <p align="right">(<a href="#top">back to top</a>)</p>
 
