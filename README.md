@@ -215,6 +215,8 @@ Adjust the parameter n appropriately when there is noise in the stylized image.
 
 
 #### Tip
+You can obtain images with an aspect ratio of 1:1 through the diffusers_test/centercrop.py.
+
 For most images, adjusting hyperparameters can usually yield satisfactory results. If the generated outcome is suboptimal, it is advisable to try several different hyperparameters.
 
   
